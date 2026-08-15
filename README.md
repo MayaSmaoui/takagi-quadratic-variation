@@ -7,7 +7,7 @@ The project arose from a research internship conducted under the supervision of 
 The function studied is the normalised constant-coefficient Takagi function
 
 $$
-x(t)=\sum_{m=0}^{\infty}2^{-m/2}\operatorname{dist}(2^m t,\mathbb Z),
+x(t)=\sum_{m=0}^{\infty}2^{-m/2}\mathrm{dist}(2^m t,\mathbb Z),
 \qquad t\in[0,1].
 $$
 
@@ -25,7 +25,7 @@ The central question is how its quadratic sums depend on the geometry of the ref
 
 - **Ternary partitions.** The alignment is lost. Using the multiplicative order
 
-  $$\operatorname{ord}_{3^p}(2)=2\cdot3^{p-1},$$
+  $$\mathrm{ord}_{3^p}(2)=2\cdot3^{p-1},$$
 
   together with the symmetry of the tent function, every ternary increment can be reduced to an exact finite computation.
 
