@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying research report if you use the code."
+title: "Quadratic Variation of a Takagi Function"
+type: software
+authors:
+  - family-names: Smaoui
+    given-names: Maya
+version: 0.1.0
+

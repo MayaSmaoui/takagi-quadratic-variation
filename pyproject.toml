@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "takagi-quadratic-variation"
+version = "0.1.0"
+description = "Reproducible computations for quadratic variation of a normalised Takagi function."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Maya Smaoui" }
+]
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
